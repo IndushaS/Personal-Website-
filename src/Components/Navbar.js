@@ -1,24 +1,25 @@
 import React, { Component } from "react";
 import logo from "../logo.svg";
 import { Link, animateScroll as scroll } from "react-scroll";
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import headerEmoji from '../assets/myemoji.png'
 
-export default class Navbar extends Component {
+export default class Navigation extends Component {
   scrollToTop = () => {
     scroll.scrollToTop();
   };
 
   render() {
     return (
-      <nav className="nav" id="navbar">
-        <div className="nav-content">
-          <img
-            src={logo}
-            className="nav-logo"
-            alt="Logo"
-            onClick={this.scrollToTop}
-          />
-          <ul className="nav-items">
-            <li className="nav-item">
+      <Navbar collapseOnSelect expand='lg' bg='white' variant='light'>
+      <Navbar.Brand href="#home"><img height='60px' src={headerEmoji} /> <a>Indusha Semba </a>
+      
+      </Navbar.Brand>
+      
+          <Navbar.Toggle aria-controls='responseive-navbar-nav' />
+          <Navbar.Collapse className="justify-content-end" id='responsive-navbar-nav'>
+            <Nav>
+               <Nav.Link>
               <Link
                 activeClass="active"
                 to="section1"
@@ -27,10 +28,10 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Section 1
+                About
               </Link>
-            </li>
-            <li className="nav-item">
+              </Nav.Link>
+              <Nav.Link>
               <Link
                 activeClass="active"
                 to="section2"
@@ -39,10 +40,12 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Section 2
+                Projects
               </Link>
-            </li>
-            <li className="nav-item">
+
+              </Nav.Link>
+             
+              <Nav.Link>
               <Link
                 activeClass="active"
                 to="section3"
@@ -51,36 +54,14 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Section 3
+                Resume
               </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                activeClass="active"
-                to="section4"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                Section 4
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                activeClass="active"
-                to="section5"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                Section 5
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
+              </Nav.Link>
+              
+
+            </Nav>
+          </Navbar.Collapse>
+      </Navbar>
     );
   }
 }
