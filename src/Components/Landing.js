@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from 'react-bootstrap';
 import profile from '../assets/profile.png'
+import {FaLinkedin, FaEnvelope, FaFile, FaGithub} from "react-icons/fa"
+import {IconContext} from "react-icons"
 
 export default function Landing({ title, subtitle, dark, id }) {
   return (
@@ -20,6 +22,14 @@ export default function Landing({ title, subtitle, dark, id }) {
               <p>
                 Software developer 
               </p>
+              <IconContext.Provider value={{style: {fontSize: '30px', color:'#AAAAAA'}}}>
+                <FaFile style={{margin:'10 10 10 0'}}/>
+                <FaGithub style={{margin:'10px'}}/>
+                <FaLinkedin style={{margin:'10px'}}/>
+                <FaEnvelope style={{margin:'10px'}}/>
+
+              </IconContext.Provider>
+             
             </Col>
             <Col className="text-center" xs={12} md={{ span: 3, offset: 0 }}>
       
