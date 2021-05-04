@@ -21,7 +21,7 @@ export default function Landing({ title, subtitle, dark, id }) {
                 Software developer 
               </p>
             </Col>
-            <Col className="text-center" xs={12} md={{ span: 3, offset: 2 }}>
+            <Col className="text-center" xs={12} md={{ span: 3, offset: 0 }}>
       
             <img height='250px' src={profile} /> 
             </Col>
