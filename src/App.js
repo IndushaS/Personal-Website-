@@ -6,6 +6,7 @@ import Section from "./Components/Section";
 import dummyText from "./DummyText";
 import Landing from "./Components/Landing";
 import About from "./Components/About";
+import Credits from "./Components/Credits";
 class App extends Component {
   render() {
     return (
@@ -23,10 +24,10 @@ class App extends Component {
           dark={false}
           id="section2"
         />
-        <Section
+        <Credits
           title="Section 3"
           subtitle={dummyText}
-          dark={true}
+          dark={false}
           id="section3"
         />
       </div>

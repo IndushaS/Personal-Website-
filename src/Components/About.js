@@ -18,12 +18,12 @@ export default function About({ title, subtitle, dark, id }) {
             </Col>
             <Col xs={12} md={{ span: 5}} lg={{span:5}}>
             <br></br>
-              <br></br>
+              
               <h1>About Me</h1>
              
               <br></br>
-              
-
+            
+             
            
             <p>I have a keen interest in Software engineering with a broad set of skills. Which I am grateful to have gained by interning at companies like <a href="https://developer.interac.ca/" style={{color:"orange"}}>Interac</a>, <a href="https://www.longviewsystems.com/digital-organization/#/" style={{color:"green"}}>Long View Systems</a>, and <a href="https://mattermost.com/" style={{color:"#0059CC"}}>Mattermost</a>. Allowing me to gain experience in Backend (Cloud, DevOps, Server), Mobile, and Front End development. </p>
             <p>In my free time I like to run, play video games, read and watch shows (I really like car reviews). </p>
@@ -31,6 +31,7 @@ export default function About({ title, subtitle, dark, id }) {
           
               <br></br>
               <br></br>
+              
             
              
             </Col>

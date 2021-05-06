@@ -11,6 +11,13 @@
   display: flex;
   align-items: center;
 }
+.credits {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 30vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
 
 .section-dark {
   background: #333;
@@ -26,6 +33,9 @@
 }
 h1,h2, p{
   font-family: 'Roboto Slab', serif;
+}
+.credits p{
+  font-family: 'Cutive Mono', monospace;
 }
 .aboutmepic img{
 max-width: 80%;
