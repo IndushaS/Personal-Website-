@@ -14,6 +14,8 @@ export default function Landing({ title, subtitle, dark, id }) {
             <br></br>
               <br></br>
             
+            
+            
               <h1>
                 Hello
                 <span role="img" aria-label="">👋</span>
@@ -50,13 +52,13 @@ export default function Landing({ title, subtitle, dark, id }) {
               <br></br>
               <br></br>
               <br></br>
-              <br></br>
+             
             
             
             </Col>
             <Col className="text-center" xs={{span:12, order: 1}} md={{ span: 6, order:2 }} lg={{ span: 3, order: 1}}>
             <br></br>
-              <br></br>
+              
             
               <img height='250px' src={profile} />
             </Col>

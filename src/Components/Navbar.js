@@ -23,7 +23,7 @@ export default class Navigation extends Component {
                <Nav.Link>
               <Link
                 activeClass="active"
-                to="section1"
+                to="section2"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -32,19 +32,7 @@ export default class Navigation extends Component {
                 About
               </Link>
               </Nav.Link>
-              <Nav.Link>
-              <Link
-                activeClass="active"
-                to="section2"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                Projects
-              </Link>
-
-              </Nav.Link>
+             
              
               <Nav.Link>
               <Link
