@@ -11,6 +11,7 @@ export default class Navigation extends Component {
 
   render() {
     return (
+      <div className="navigation">
       <Navbar collapseOnSelect expand='lg' bg='white' variant='light'>
       <Navbar.Brand href="#home"><img height='60px' src={headerEmoji} /> <a>Indusha Semba </a>
       
@@ -62,6 +63,7 @@ export default class Navigation extends Component {
             </Nav>
           </Navbar.Collapse>
       </Navbar>
+      </div>
     );
   }
 }

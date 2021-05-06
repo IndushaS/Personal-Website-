@@ -10,7 +10,10 @@ export default function Landing({ title, subtitle, dark, id }) {
       <div className="section-content" id={id}>
         <Container>
           <Row className="align-items-center">
-            <Col xs={12} md={{ span: 7, offset: -7 }}>
+            <Col xs={{span:12, order:2}} md={{ span: 6, order: 1}} lg={{ span: 8, order: 1}}> 
+            <br></br>
+              <br></br>
+            
               <h1>
                 Hello
                 <span role="img" aria-label="">👋</span>
@@ -19,8 +22,12 @@ export default function Landing({ title, subtitle, dark, id }) {
                 I'm Indusha Semba
               </h2>
               <p>
-               Former SWE intern @Mattermost | 4A Management Engineering @UWaterloo
+               Former SWE intern @Mattermost
               </p>
+              <p>
+              4A Management Engineering @UWaterloo
+              </p>
+              <p>I am currently seeking fall 2021 internships here's my <a href="">resume</a>.</p>
               <IconContext.Provider value={{ style: { fontSize: '30px', color: '#AAAAAA' } }}>
                 <a href="">
                   <FaFile style={{ margin: '10 10 10 0' }} />
@@ -40,10 +47,17 @@ export default function Landing({ title, subtitle, dark, id }) {
 
 
               </IconContext.Provider>
-
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+            
+            
             </Col>
-            <Col className="text-center" xs={12} md={{ span: 3, offset: 0 }}>
-
+            <Col className="text-center" xs={{span:12, order: 1}} md={{ span: 6, order:2 }} lg={{ span: 3, order: 1}}>
+            <br></br>
+              <br></br>
+            
               <img height='250px' src={profile} />
             </Col>
           </Row>

@@ -5,6 +5,7 @@ import Navigation from "./Components/Navbar";
 import Section from "./Components/Section";
 import dummyText from "./DummyText";
 import Landing from "./Components/Landing";
+import About from "./Components/About";
 class App extends Component {
   render() {
     return (
@@ -16,7 +17,7 @@ class App extends Component {
           dark={false}
           id="section1"
         />
-        <Section
+        <About
           title="Section 2"
           subtitle={dummyText}
           dark={false}

@@ -6,7 +6,7 @@
 
 .section {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 80vh; /* These two lines are counted as one :-)       */
+  min-height: 70vh; /* These two lines are counted as one :-)       */
 
   display: flex;
   align-items: center;
@@ -18,16 +18,25 @@
 }
 
 .section-content {
-  max-width: 800px;
   margin: 0 auto;
-  padding: 40px;
+  max-width: 1100px;
 }
-a{
+.navigation a{
   font-family: 'Cutive Mono', monospace;
 }
 h1,h2, p{
   font-family: 'Roboto Slab', serif;
 }
+.aboutmepic img{
+max-width: 80%;
+max-height: 80%;
+}
+
+div.text-center.col-md-6.col-12.order-md-2.order-1{
+  margin-bottom: 20px;
+}
+
+
 @media (min-width:801px) {
 nav.navbar.navbar-expand-lg.navbar-light.bg-white{
   padding-right: 250px;
