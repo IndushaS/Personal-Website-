@@ -3,6 +3,7 @@ import logo from "../logo.svg";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import headerEmoji from '../assets/myemoji.png'
+import resume from '../assets/Indusha_Resume_Fall.pdf'
 
 export default class Navigation extends Component {
   scrollToTop = () => {
@@ -34,17 +35,10 @@ export default class Navigation extends Component {
               </Nav.Link>
              
              
-              <Nav.Link>
-              <Link
-                activeClass="active"
-                to="section3"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                Resume
-              </Link>
+              <Nav.Link  eventKey="active" href={resume} target="_blank"  > 
+             
+               Resume
+              
               </Nav.Link>
               
 

@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import profile from '../assets/profile.png'
 import { FaLinkedin, FaEnvelope, FaFile, FaGithub } from "react-icons/fa"
 import { IconContext } from "react-icons"
+import resume from '../assets/Indusha_Resume_Fall.pdf'
 
 export default function Landing({ title, subtitle, dark, id }) {
   return (
@@ -29,9 +30,9 @@ export default function Landing({ title, subtitle, dark, id }) {
               <p>
               4A Management Engineering @UWaterloo
               </p>
-              <p>I am currently seeking fall 2021 internships here's my <a href="">resume</a>.</p>
+              <p>I am currently seeking fall 2021 internships here's my <a href={resume} target="_blank">resume</a>.</p>
               <IconContext.Provider value={{ style: { fontSize: '30px', color: '#AAAAAA' } }}>
-                <a href="">
+              <a href={resume} target="_blank" rel="noopener noreferrer">
                   <FaFile style={{ margin: '10 10 10 0' }} />
                 </a>
                 <a href="https://github.com/IndushaS" target="_blank" rel="noopener noreferrer">
