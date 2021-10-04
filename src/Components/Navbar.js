@@ -3,7 +3,7 @@ import logo from "../logo.svg";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import headerEmoji from '../assets/myemoji.png'
-import resume from '../assets/Indusha_Resume_Fall.pdf'
+import resume from '../assets/SWE_Resume.pdf'
 
 export default class Navigation extends Component {
   scrollToTop = () => {
