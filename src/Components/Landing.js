@@ -25,7 +25,7 @@ export default function Landing({ title, subtitle, dark, id }) {
                 I'm Indusha Semba
               </h2>
               <p>
-               Former SRE intern @ADP Lifion &amp SWE intern @Mattermost
+               Former SRE intern @ADP Lifion & SWE intern @Mattermost
               </p>
               <p>
               4A Management Engineering @UWaterloo
