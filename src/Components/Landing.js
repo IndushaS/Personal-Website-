@@ -25,12 +25,12 @@ export default function Landing({ title, subtitle, dark, id }) {
                 I'm Indusha Semba
               </h2>
               <p>
-               Former SRE intern @ADP Lifion & SWE intern @Mattermost
+                SWE @ Microsoft 
               </p>
               <p>
-              4A Management Engineering @UWaterloo
+                UWaterloo Engineering New Grad
               </p>
-              <p>I am currently seeking 2022 new grad opportunities, here's my <a href={resume} target="_blank">resume</a>.</p>
+              <p>My resume: <a href={resume} target="_blank">resume</a>.</p>
               <IconContext.Provider value={{ style: { fontSize: '30px', color: '#AAAAAA' } }}>
               <a href={resume} target="_blank" rel="noopener noreferrer">
                   <FaFile style={{ margin: '10 10 10 0' }} />
