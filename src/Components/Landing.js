@@ -30,7 +30,7 @@ export default function Landing({ title, subtitle, dark, id }) {
               <p>
                 UWaterloo Engineering New Grad
               </p>
-              <p>My resume: <a href={resume} target="_blank">resume</a>.</p>
+              <p>My<a href={resume} target="_blank">resume</a>.</p>
               <IconContext.Provider value={{ style: { fontSize: '30px', color: '#AAAAAA' } }}>
               <a href={resume} target="_blank" rel="noopener noreferrer">
                   <FaFile style={{ margin: '10 10 10 0' }} />
