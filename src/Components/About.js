@@ -25,8 +25,8 @@ export default function About({ title, subtitle, dark, id }) {
             
              
            
-            <p>I love working on software products end to end including infrastructure, frontend, cloud and backend. I have over 2 years of hands on experience building innovative solutions, through internships at <a href="https://lifion.com/" style={{color:"#ED1C2E"}}>Lifion by ADP</a>,<a href="https://mattermost.com/" style={{color:"#0059CC"}}> Mattermost</a>,<a href="https://developer.interac.ca/" style={{color:"orange"}}> Interac</a>, and <a href="https://www.longviewsystems.com/digital-organization/#/" style={{color:"green"}}>Long View Systems</a>. </p>
-            <p>In my free time I like to run, play video games, read and watch shows (I really like car reviews). </p>
+            <p>I love working on software products end to end including infrastructure, frontend, cloud and backend. I have over 4 years of hands on experience building innovative solutions @Microsot and through internships at <a href="https://lifion.com/" style={{color:"#ED1C2E"}}>Lifion by ADP</a>,<a href="https://mattermost.com/" style={{color:"#0059CC"}}> Mattermost</a>,<a href="https://developer.interac.ca/" style={{color:"orange"}}> Interac</a>, and <a href="https://www.longviewsystems.com/digital-organization/#/" style={{color:"green"}}>Long View Systems</a>. </p>
+            <p>In my free time I like to run, play video games, read and work on my car. </p>
 
           
               <br></br>

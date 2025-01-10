@@ -28,7 +28,7 @@ export default function Landing({ title, subtitle, dark, id }) {
                 SWE @ Microsoft 
               </p>
               <p>
-                UWaterloo Engineering New Grad
+                UWaterloo Engineering Alumni
               </p>
               <p>My <a href={resume} target="_blank">resume</a>.</p>
               <IconContext.Provider value={{ style: { fontSize: '30px', color: '#AAAAAA' } }}>
