@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import profile from '../assets/profile.png'
 import { FaLinkedin, FaEnvelope, FaFile, FaGithub } from "react-icons/fa"
 import { IconContext } from "react-icons"
-import resume from '../assets/Indusha-Resume.pdf'
+//import resume from '../assets/Indusha-Resume.pdf'
 
 export default function Landing({ title, subtitle, dark, id }) {
   return (
