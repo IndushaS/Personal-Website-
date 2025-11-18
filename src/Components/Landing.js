@@ -23,7 +23,9 @@ export default function Landing({ title, subtitle, dark, id }) {
               </h1>
               <h2>
                 I'm Indusha Semba
+              
               </h2>
+                <p>He/Him</p>
               <p>
                 SWE @ Microsoft 
               </p>
