@@ -24,9 +24,9 @@ export default function About({ title, subtitle, dark, id }) {
               <br></br>
             
             <p>
-              I love working on software products end to end including infrastructure, frontend, cloud and backend. I have over 6 years of hands on experience building innovative solutions @
+              I love working on software products end to end including infrastructure, frontend, cloud and backend. I have over 6 years of hands on experience building innovative solutions at 
+              <a href="https://eddi.org/" style={{ color: "#EED88B" }}> Eddi</a> 
               <a href="https://www.microsoft.com/" style={{ color: "#00A4EF" }}>Microsoft</a>
-              and through internships at{" "}
               <a href="https://lifion.com/" style={{ color: "#ED1C2E" }}>Lifion by ADP</a>,
               <a href="https://mattermost.com/" style={{ color: "#0059CC" }}> Mattermost</a>,
               <a href="https://developer.interac.ca/" style={{ color: "orange" }}> Interac</a>, and{" "}
