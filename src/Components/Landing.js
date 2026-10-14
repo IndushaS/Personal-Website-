@@ -27,7 +27,7 @@ export default function Landing({ title, subtitle, dark, id }) {
               </h2>
                 <p>He/Him</p>
               <p>
-                SWE @ Microsoft 
+                Sr. Software Engineer @ Eddi, previously @ Microsoft
               </p>
               <p>
                 UWaterloo Engineering Alumni
